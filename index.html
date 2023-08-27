@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Timers</title>
+</head>
+<body>
+
+    <form>
+        <h2>Add Boss Timer</h2>
+        <input type="text" name="map" id="map" placeholder="Map"/>
+        <input type="text" name="bossName" id="bossName" placeholder="Boss name"/>
+        <input type="text" name="duration" id="duration" placeholder="cooldown... 03:08:04"/>
+        <button id="add-button" type="submit">Add</button>
+    </form>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="location">Location</th>
+                <th class="boss-name">Boss Name</th>
+                <th class="timer">Timeleft</th>
+                <th class="handler">Handler</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
