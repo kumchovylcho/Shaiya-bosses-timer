@@ -1,0 +1,45 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Add right border for column separation */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.long-time-spawn {
+    background-color: #81de3d;
+}
+
+.about-to-spawn {
+    background-color: #e36969;
+}
+
+.location {
+    width: 30%;
+}
+
+.boss-name {
+    width: 30%;
+}
+
+.timer {
+    width: 40%;
+}
+
+.handler {
+    width: 10%;
+}
+
+/* Remove right border from the last cell in each row */
+tr td:last-child {
+    border-right: none;
+}
