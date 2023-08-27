@@ -1,5 +1,7 @@
 # Shaiya-bosses-timer
-Times the bosses of the game
+
+
+# Very small project made for my friends who play Shaiya, so they can track their boss spawn times.
 
 
 1. Sorts the timers ascending. Means that the boss which will spawn sooner will be always on top. Sorting is applied every time you add a new timer.
